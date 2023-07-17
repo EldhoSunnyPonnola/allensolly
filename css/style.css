@@ -516,3 +516,198 @@ padding-left: 60px;
 .dolo1{
     padding-left: 200px;
 }
+
+.circle h3 {
+    font-size: 20px;
+}
+.posters p{
+    font-size: 20px;
+}
+
+.posters{
+    padding-left: 200px;
+    padding-top: 100px;
+    display: flex ;
+    gap: 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+}
+.poster{
+    max-height: 200px;
+    cursor: pointer;
+}
+
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.poster:hover{
+    transform: scale(1.5);
+}
+.one{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+}
+.two{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-top: 40px;
+}
+/* .three{
+    text-align: center;
+    padding-top: 80px;
+
+}
+.three button{
+    background-color: yellow;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+} */
+button {
+    margin: 12px;
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    background:yellow;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Damion', cursive;
+    border: none;
+    font-size: 16px;
+    color: rgb(161, 161, 161);
+    transition: 500ms;
+  }
+  
+  button:hover {
+    color: #d6d6d6;
+    transition: 500ms;
+  }
+  .three{
+    text-align: center;
+    padding-top: 60px;
+  }
+
+  .four{
+    display: flex;
+  }
+  .five{
+    display: flex;
+  }
+  .part3{
+    padding-top: 50px;
+  }
+  .bg{
+    background-image: url("../images/haha.jpg");
+    height: 1000px;
+    padding-top: 400px;
+    background-repeat: no-repeat;
+  }
+  .el{
+    background-color: #ffdf00;
+    width: 900px;
+    margin-left: 1000px;
+    text-align: center;
+    
+    
+    
+  }
+  .el p{
+font-size: 40px;
+  }
+  .el button{
+    color:white;
+    background-color: blue;
+    width: 300px;
+  }
+  .haha{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #0e3051;
+    justify-content: center;
+    margin-top: 100px;
+    height: 100px;
+    padding-top: 50px;
+    font-size: 30px;
+  }
+  .haha span{
+    color: yellow;
+    font-size: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+  }
+  .haha button {
+    width: 170px;
+    color:black;
+  }
+  .haha p {
+    color: yellow;
+  }
+  .eld{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffdf00;
+    justify-content: center;
+    margin-top: 90px;
+    gap: 30px;
+    padding-top: 80px;
+    height: 250px;
+    
+  }
+  .eld input{
+    height: 40px;
+    width: 250px;
+    text-align: center;
+  }
+  .eld img{
+    padding-bottom: 50px;
+  }
+  .part6  input {
+    margin-top: 90px;
+  }
+  .part6  p {
+    margin-top: 100px;
+    font-size: 40px;
+  }
+
+  .part7 {
+    text-align: center;
+    padding-top: 80px; 
+  }
+  .part7 button {
+    width: 250px;
+    background-color: #0e3051;
+    color: white;
+  }
+  .part8{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 600px;
+    padding-top: 90px;
+    font-size: 15px;
+  }
+  .im2, .im3{
+    padding-top: 20px;
+  }
+  .part9{
+    border: 1px solid black;
+    border-radius: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 200px;
+    font-size: 20px;
+    /* padding-top: 200px; */
+    margin-top: 200px;
+  }
+  .list{
+    padding-left: 100px;
+  }
+  .list3{
+    padding-left: 600px;
+  }
+  .list3 h5 {
+    padding-bottom: 30px;
+  }
